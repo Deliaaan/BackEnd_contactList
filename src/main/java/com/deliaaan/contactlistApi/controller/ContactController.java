@@ -3,11 +3,12 @@ package com.deliaaan.contactlistApi.controller;
 import com.deliaaan.contactlistApi.entites.ContactEntity;
 import com.deliaaan.contactlistApi.service.ContactService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
+
+
+@CrossOrigin // Para el intercambio de datos entre la api y la web
 @AllArgsConstructor
 @RequestMapping("/api/contacts")
 @RestController
